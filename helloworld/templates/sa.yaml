@@ -3,5 +3,5 @@ kind: ServiceAccount
 metadata:
   labels:
     app: {{ .Values.namespace }}
-  name: {{ .Values.namespace }}
+  name: helloworld-sa
   namespace: {{ .Values.namespace }}

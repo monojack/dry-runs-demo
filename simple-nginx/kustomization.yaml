@@ -1,6 +1,6 @@
 replicas:
 - name: nginx-deployment
-  count: 5
+  count: 6
 
 resources:
   - deployment.yaml

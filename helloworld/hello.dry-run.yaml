@@ -1,0 +1,16 @@
+apiVersion: monokle.io/v1beta1
+kind: DryRun
+metadata:
+  name: hello-world
+  annotations:
+    config.kubernetes.io/local-config: true
+data:
+  kind: helm
+  version: v3
+  values:
+    - values.yaml
+    - values-prod.yaml
+  output: resources.yaml
+  postRender:
+    - kind: kustomize
+  

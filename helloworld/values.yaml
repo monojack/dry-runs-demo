@@ -1,7 +1,5 @@
-# common values at global level. 
 namespace: dev
 
-# micro-service specific values inside each service subsection.
 hello:
   image: 
     name: monokle/helloworld

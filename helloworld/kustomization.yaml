@@ -1,4 +1,4 @@
 namespace: k
 
-resources:
-  - resources.yaml
+# resources:
+#   - resources.yaml

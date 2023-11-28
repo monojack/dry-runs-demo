@@ -6,7 +6,7 @@ hello:
     tag: latest
     pullpolicy: IfNotPresent
   container:
-    port: 8080
+    port: 8088
     protocol: TCP
   resources:
     limits:
